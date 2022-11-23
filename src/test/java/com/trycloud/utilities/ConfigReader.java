@@ -16,7 +16,7 @@ public class ConfigReader {
     static{
         try{
             //2. Creating object of FileInputStream
-            FileInputStream file = new FileInputStream("config.properties");
+            FileInputStream file = new FileInputStream("configuration.properties");
 
             //3. Loading the properties object using FileInputStream object
             //Load "properties" object with the "file" we opened using FileInputStream
