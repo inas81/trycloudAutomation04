@@ -10,6 +10,7 @@ import java.util.List;
 public class InasUs4Page {
     public InasUs4Page() {
 
+
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
